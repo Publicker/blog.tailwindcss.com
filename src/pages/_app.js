@@ -17,6 +17,12 @@ export default function App({ Component, pageProps }) {
         <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml" />
         <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="/atom.xml" />
         <link rel="alternate" type="application/json" title="JSON Feed" href="/feed.json" />
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-0WDK4RN4WP"></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date()); gtag('config', 'G-0WDK4RN4WP');
+        </script>
       </Head>
       <SectionContainer>
         <Header />
